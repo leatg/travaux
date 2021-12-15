@@ -1,0 +1,931 @@
+			body
+			{
+				background-color:rgb(188, 172, 155);
+				width:100%;
+				height:100%;
+				font-family: "Lucida Console", "Courier New", monospace;
+			}
+			h1
+			{	
+				font-size:2em;
+				color:rgb(42, 61, 69);
+			}
+			h3
+			{
+				color:rgb(42, 61, 69);
+			}
+			p
+			{	
+				font-size:1em;
+				color:rgb(42, 61, 69);
+			}
+			
+			@media screen and (max-width: 992px)
+			{
+				#grille
+				{
+					display:grid;
+				}
+				#item1
+				{
+					display:grid;
+					grid-row: 1 / 2;
+					grid-column: 1 / 4;
+					
+				}
+				#item2
+				{
+					display:grid;
+					grid-row: 2 / 3;
+					grid-column: 1 / 4;
+					background-color:rgb(42, 61, 69);
+					min-width:1000px;
+				}
+				#item3
+				{
+					display:grid;
+					grid-row: 3 / 4;
+					grid-column: 1 / 2;
+				}
+				#item4
+				{
+					display:grid;
+					grid-row: 3 / 4;
+					grid-column: 2 / 3;
+				}
+				#item5
+				{
+					display:grid;
+					grid-row:  / ;
+					grid-column: 1 / 2;
+				}
+				#item6
+				{
+					display:grid;
+					grid-row: 3 / 4;
+					grid-column: 2 / 3;
+				}
+				#item7
+				{
+					display:grid;
+					grid-row: 4 / 5;
+					grid-column: 1 / 2;
+				}
+				#item8
+				{
+					display:grid;
+					grid-row: 4 / 5;
+					grid-column: 2 / 3;
+				}
+				#item9
+				{
+					display:grid;
+					grid-row: 5 / 6;
+					grid-column: 1 / 2;
+				}
+				#item10
+				{
+					display:grid;
+					grid-row: 5 / 6;
+					grid-column: 2 / 3;
+				}
+				#item11
+				{
+					display:grid;
+					grid-row: 6 / 7;
+					grid-column: 1 / 2;
+				}
+				#item12
+				{
+					display:grid;
+					grid-row: 6 / 7;
+					grid-column: 2 / 3;
+				}
+				#item13
+				{
+					display:grid;
+					grid-row: 7 / 8;
+					grid-column: 1 / 2;	
+				}
+				#item14
+				{
+					display:grid;
+					grid-row: 7 / 8;
+					grid-column: 2 / 3;
+				}
+				#item15
+				{
+					display:grid;
+					grid-row: 8 / 9;
+					grid-column: 1 / 2;
+				}
+				#item16
+				{
+					display:grid;
+					grid-row: 8 / 9;
+					grid-column: 2 / 3;
+				}
+				#item17
+				{
+					display:grid;
+					grid-row: 9 / 10;
+					grid-column: 1 / 2;
+				}
+				#item18
+				{
+					display:grid;
+					grid-row: 9 / 10;
+					grid-column: 2 / 3;
+				}
+				#item19
+				{
+					display:grid;
+					grid-row: 10 / 11;
+					grid-column: 1 / 2;
+				}
+				#item20
+				{
+					display:grid;
+					grid-row: 10 / 11;
+					grid-column: 2 / 3;
+				}
+				#item21
+				{
+					display:grid;
+					grid-row: 11 / 12;
+					grid-column: 1 / 2;
+				}
+				#item22
+				{
+					display:grid;
+					grid-row: 11 / 12;
+					grid-column: 2 / 3;
+				}
+				#item23
+				{
+					display:grid;
+					grid-row: 12 / 13;
+					grid-column: 1 / 2;
+				}
+				#item24
+				{
+					display:grid;
+					grid-row: 12 / 13;
+					grid-column: 2 / 3;
+				}
+				#item25
+				{
+					display:grid;
+					grid-row: 13 / 14;
+					grid-column: 1 / 2;
+				}
+				#item26
+				{
+					display:grid;
+					grid-row: 13 / 14;
+					grid-column: 2 / 3;
+				}
+				#item27
+				{
+					display:grid;
+					grid-row: 14 / 15;
+					grid-column: 1 / 2;
+				}
+				#item28
+				{
+					display:grid;
+					grid-row: 14 / 15;
+					grid-column: 2 / 3;
+				}
+				#item29
+				{
+					display:grid;
+					grid-row: 15 / 16;
+					grid-column: 1 / 2;
+				}
+				#item30
+				{
+					display:grid;
+					grid-row: 15 / 16;
+					grid-column: 2 / 3;
+				}
+				#item31
+				{
+					display:grid;
+					grid-row: 16 / 17;
+					grid-column: 1 / 2;
+				}
+				#item32
+				{
+					display:grid;
+					grid-row: 16 / 17;
+					grid-column: 2 / 3;
+				}
+				#item33
+				{
+					display:grid;
+					grid-row: 17 / 18;
+					grid-column: 1 / 2;
+				}
+				#item34
+				{
+					display:grid;
+					grid-row: 17 / 18;
+					grid-column: 2 / 3;
+				}
+				#item35
+				{
+					display:grid;
+					grid-row: 18 / 19;
+					grid-column: 1 / 2;
+				}
+				#item36
+				{
+					display:grid;
+					grid-row: 18 / 19;
+					grid-column: 2 / 3;
+				}
+				#item37
+				{
+					display:grid;
+					grid-row: 19 / 20;
+					grid-column: 1 / 2;
+				}
+				#item38
+				{
+					display:grid;
+					grid-row: 19 / 20;
+					grid-column: 2 / 3;
+				}
+				#item39
+				{
+					display:grid;
+					grid-row: 20 / 21
+					grid-column: 1 / 2;
+				}
+				#item40
+				{
+					display:grid;
+					grid-row: 20 / 21
+					grid-column: 2 / 3;
+				}
+			}
+			@media screen and (max-width: 600px)
+			{
+				#grille
+				{
+					display:grid;
+				}
+				#item1
+				{
+					display:grid;
+					grid-row: 1 / 2;
+				}
+				#item2
+				{
+					display:grid;
+					grid-row: 2 / 3;
+					background-color:rgb(42, 61, 69);
+					min-width:1000px;
+				}
+				#item3
+				{
+					display:grid;
+					grid-row: 3 / 4;
+				}
+				#item4
+				{
+					display:grid;
+					grid-row: 4 / 5;
+				}
+				#item5
+				{
+					display:grid;
+					grid-row: 5 / 6;
+				}
+				#item6
+				{
+					display:grid;
+					grid-row: 6 / 7;
+				}
+				#item7
+				{
+					display:grid;
+					grid-row: 7 / 8;
+				}
+				#item8
+				{
+					display:grid;
+					grid-row: 8 / 9;
+				}
+				#item9
+				{
+					display:grid;
+					grid-row: 9 / 10;
+				}
+				#item10
+				{
+					display:grid;
+					grid-row: 10 / 11;
+				}
+				#item11
+				{
+					display:grid;
+					grid-row: 11 / 12;
+				}
+				#item12
+				{
+					display:grid;
+					grid-row: 12 / 13;
+				}
+				#item13
+				{
+					display:grid;
+					grid-row: 13 / 14;
+				}
+				#item14
+				{
+					display:grid;
+					grid-row: 14 / 15;
+				}
+				#item15
+				{
+					display:grid;
+					grid-row: 15 / 16;
+				}
+				#item16
+				{
+					display:grid;
+					grid-row: 16 / 17;
+				}
+				#item17
+				{
+					display:grid;
+					grid-row: 17 / 18;
+				}
+				#item18
+				{
+					display:grid;
+					grid-row: 18 / 19;
+				}
+				#item19
+				{
+					display:grid;
+					grid-row: 19 / 20;
+				}
+				#item20
+				{
+					display:grid;
+					grid-row: 20 / 21;
+				}
+				#item21
+				{
+					display:grid;
+					grid-row: 21 / 22;
+				}
+				#item22
+				{
+					display:grid;
+					grid-row: 22 / 23;
+				}
+				#item23
+				{
+					display:grid;
+					grid-row: 23 / 24;
+				}
+				#item24
+				{
+					display:grid;
+					grid-row: 24 / 25;
+				}
+				#item25
+				{
+					display:grid;
+					grid-row: 25 / 26;
+				}
+				#item26
+				{
+					display:grid;
+					grid-row: 26 / 27;
+				}
+				#item27
+				{
+					display:grid;
+					grid-row: 27 / 28;
+				}
+				#item28
+				{
+					display:grid;
+					grid-row: 28 / 29;
+				}
+				#item29
+				{
+					display:grid;
+					grid-row: 29 / 30;
+				}
+				#item30
+				{
+					display:grid;
+					grid-row: 30 / 31;
+				}
+				#item31
+				{
+					display:grid;
+					grid-row: 31 / 32;
+				}
+				#item32
+				{
+					display:grid;
+					grid-row: 32 / 33;
+				}
+				#item33
+				{
+					display:grid;
+					grid-row: 33 / 34;
+				}
+				#item34
+				{
+					display:grid;
+					grid-row: 34 / 35;
+				}
+				#item35
+				{
+					display:grid;
+					grid-row: 35 / 36;
+				}
+				#item36
+				{
+					display:grid;
+					grid-row: 36 / 37;
+				}
+				#item37
+				{
+					display:grid;
+					grid-row: 37 / 38;
+				}
+				#item38
+				{
+					display:grid;
+					grid-row: 38 / 39;
+				}
+				#item39
+				{
+					display:grid;
+					grid-row: 39 / 40;
+				}
+				#item40
+				{
+					display:grid;
+					grid-row: 40 / 41;
+				}
+			}
+			#grosseImage
+			{
+				margin:auto;
+				width:70vw;
+				min-width:860px;
+				margin-top: 7%;
+				border-top-left-radius:50px;
+				border-top-right-radius:50px;
+			}
+			#imageTableau
+			{
+				width:150px;
+				border-radius:20px;
+				border:solid #975952 2px;
+			}
+			#youngDahmer1
+			{
+				width:150px;
+				border: solid rgb(89, 79, 67) 20px;
+				top: 5px;
+				display:block;
+				margin:auto;
+				margin-top:10px;
+				position:relative;
+			}
+			#teenDahmer
+			{
+				border: solid #c17c74 20px;
+				width: 150px;
+				display:block;
+				margin:auto;
+				position:relative;
+			}
+			#youngDahmer2
+			{
+				border: solid rgb(42, 61, 69) 20px;
+				width: 150px;
+				display:block;
+				margin:15px;
+				position:relative;
+			}
+			#item1
+			{
+				display:grid;
+				grid-row: 1 / 21;
+				grid-column: 1 / 2;
+				
+			}
+			#item2
+			{
+				display:grid;
+				grid-row: 1 / 2;
+				grid-column: 2 / 4;
+				background-color:rgb(42, 61, 69);
+				min-width:1000px;
+			}
+			#item3
+			{
+				display:grid;
+				grid-row: 2 / 3;
+				grid-column: 2 / 3;
+			}
+			#item4
+			{
+				display:grid;
+				grid-row: 2 / 3;
+				grid-column: 3 / 4;
+			}
+			#item5
+			{
+				display:grid;
+				grid-row: 3 / 4;
+				grid-column: 2 / 3;
+			}
+			#item6
+			{
+				display:grid;
+				grid-row: 3 / 4;
+				grid-column: 3 / 4;
+			}
+			#item7
+			{
+				display:grid;
+				grid-row: 4 / 5;
+				grid-column: 2 / 3;
+			}
+			#item8
+			{
+				display:grid;
+				grid-row: 4 / 5;
+				grid-column: 3 / 4;
+			}
+			#item9
+			{
+				display:grid;
+				grid-row: 5 / 6;
+				grid-column: 2 / 3;
+			}
+			#item10
+			{
+				display:grid;
+				grid-row: 5 / 6;
+				grid-column: 3 / 4;
+			}
+			#item11
+			{
+				display:grid;
+				grid-row: 6 / 7;
+				grid-column: 2 / 3;
+			}
+			#item12
+			{
+				display:grid;
+				grid-row: 6 / 7;
+				grid-column: 3 / 4;
+			}
+			#item13
+			{
+				display:grid;
+				grid-row: 7 / 8;
+				grid-column: 2 / 3;	
+			}
+			#item14
+			{
+				display:grid;
+				grid-row: 7 / 8;
+				grid-column: 3 / 4;
+			}
+			#item15
+			{
+				display:grid;
+				grid-row: 8 / 9;
+				grid-column: 2 / 3;
+			}
+			#item16
+			{
+				display:grid;
+				grid-row: 8 / 9;
+				grid-column: 3 / 4;
+			}
+			#item17
+			{
+				display:grid;
+				grid-row: 9 / 10;
+				grid-column: 2 / 3;
+			}
+			#item18
+			{
+				display:grid;
+				grid-row: 9 / 10;
+				grid-column: 3 / 4;
+			}
+			#item19
+			{
+				display:grid;
+				grid-row: 10 / 11;
+				grid-column: 2 / 3;
+			}
+			#item20
+			{
+				display:grid;
+				grid-row: 10 / 11;
+				grid-column: 3 / 4;
+			}
+			#item21
+			{
+				display:grid;
+				grid-row: 11 / 12;
+				grid-column: 2 / 3;
+			}
+			#item22
+			{
+				display:grid;
+				grid-row: 11 / 12;
+				grid-column: 3 / 4;
+			}
+			#item23
+			{
+				display:grid;
+				grid-row: 12 / 13;
+				grid-column: 2 / 3;
+			}
+			#item24
+			{
+				display:grid;
+				grid-row: 12 / 13;
+				grid-column: 3 / 4;
+			}
+			#item25
+			{
+				display:grid;
+				grid-row: 13 / 14;
+				grid-column: 2 / 3;
+			}
+			#item26
+			{
+				display:grid;
+				grid-row: 13 / 14;
+				grid-column: 3 / 4;
+			}
+			#item27
+			{
+				display:grid;
+				grid-row: 14 / 15;
+				grid-column: 2 / 3;
+			}
+			#item28
+			{
+				display:grid;
+				grid-row: 14 / 15;
+				grid-column: 3 / 4;
+			}
+			#item29
+			{
+				display:grid;
+				grid-row: 15 / 16;
+				grid-column: 2 / 3;
+			}
+			#item30
+			{
+				display:grid;
+				grid-row: 15 / 16;
+				grid-column: 3 / 4;
+			}
+			#item31
+			{
+				display:grid;
+				grid-row: 16 / 17;
+				grid-column: 2 / 3;
+			}
+			#item32
+			{
+				display:grid;
+				grid-row: 16 / 17;
+				grid-column: 3 / 4;
+			}
+			#item33
+			{
+				display:grid;
+				grid-row: 17 / 18;
+				grid-column: 2 / 3;
+			}
+			#item34
+			{
+				display:grid;
+				grid-row: 17 / 18;
+				grid-column: 3 / 4;
+			}
+			#item35
+			{
+				display:grid;
+				grid-row: 18 / 19;
+				grid-column: 2 / 3;
+			}
+			#item36
+			{
+				display:grid;
+				grid-row: 18 / 19;
+				grid-column: 3 / 4;
+			}
+			#item37
+			{
+				display:grid;
+				grid-row: 19 / 20;
+				grid-column: 2 / 3;
+			}
+			#item38
+			{
+				display:grid;
+				grid-row: 19 / 20;
+				grid-column: 3 / 4;
+			}
+			#item40
+			{
+				display:grid;
+				grid-row: 20 / 21
+				grid-column: 2 / 3;
+			}
+			#grille
+			{
+				display:grid;
+			}
+			td
+			{
+				border:solid #975952 2px;
+			}
+			td:last-child
+			{
+				text-align:left;
+			}
+			table
+			{
+				background-color:rgb(193, 124, 116); 
+				margin:10px; 
+				width:100px;
+				height:500px; 
+				color:#ddc9b4;
+				font-size: 0.7em;
+			}
+			#meurtres, #arrestation, #biographie, #films
+			{
+				display: none;
+				background-color:#937f68;
+				border-top: solid #594f43 1px;
+				border-left: solid #594f43 1px;
+				border-right: solid #594f43 1px;
+				padding:5px;
+			}
+			#bibliographie
+			{
+				display: none;
+				border: solid #594f43 1px;
+				background-color:#937f68;
+				padding:5px;
+			}
+			#menu:hover #meurtres, #menu:hover #arrestation, #menu:hover #films, #menu:hover #biographie, #menu:hover #bibliographie
+			{
+				display: block;
+			}
+			#meurtres:hover, #arrestation:hover, #films:hover, #biographie:hover, #bibliographie:hover
+			{
+				background-color:#594f43;
+			}
+			a:link
+			{
+				color:black;
+			}
+			a:visited
+			{
+				color:black;
+			}
+			#menu
+			{
+				background-color:#937f68;
+				padding:7px;
+				height:20px;
+				min-width:200px;
+				position: relative;
+				display: inline-block;
+			}
+			#menu:hover
+			{
+				background-color:#594f43;
+			}
+			a
+			{
+				text-decoration:none;
+			}
+			#biblio
+			{
+				display:grid; 
+				grid-column: 2 / 4;
+			}
+			.contenu
+			{
+				background-color:#ddc9b4;
+			}
+			.texte
+			{
+				padding:20px;
+			}
+			.first3Tr
+			{
+				text-align:center;
+			}
+			.divAvecPhotos
+			{
+				text-align:center;
+			}
+			.anchors
+			{
+				background-color:#937f68; 
+				margin:20px; 
+				padding:7px;
+			}
+			#anchor
+			{
+				position:absolute;
+				top:50%;
+			}
+			#stevenHicks, #richardGuerrero, #edwardSmith, #errolLindsey, #jeremiahWeinberger
+			{
+				border: solid #c17c74 10px;
+				width: 100px;
+				display:block;
+				margin:auto;
+				position:relative;
+			}
+			#stevenTuomi, #edwardSmith, #curtisSatraughter, #konerakSinthasomphone, #jeremiahWeinberger, #tracyEdwards
+			{
+				border: solid rgb(89, 79, 67) 10px;
+				width: 100px;
+				display:block;
+				margin:auto;
+				position:relative;
+			}
+			#jamesDoxtator, #anthonySears, #ernestMiller, #errolLindsey, #oliverLacy
+			{
+				border: solid rgb(42, 61, 69) 10px;
+				width: 100px;
+				display:block;
+				margin:auto;
+				position:relative;
+			}
+			#richardGuerrero, #raymondSmith, #davidThomas, #tonyHughes, #mattTurner, #josephBradehoft
+			{
+				border: solid #937f68 10px;
+				width: 100px;
+				display:block;
+				margin:auto;
+				position:relative;
+			}
+			#film1, #film2, #film3, #film4, #film5
+			{
+				width: 150px;
+				margin:auto;
+				border: solid #ddc9b4 5px;
+			}
+			#arrestationPhoto
+			{
+				border: solid #937f68 5px;
+				width: 500px;
+				display:block;
+				margin:auto;
+				position:relative;
+			}
+			#procesPhoto
+			{
+				border: solid rgb(42, 61, 69) 5px;
+				width: 500px;
+				display:block;
+				margin:auto;
+				position:relative;
+			}
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+			
